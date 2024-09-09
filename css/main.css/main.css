@@ -39,6 +39,20 @@
         background-color: beige;
 
     }
+    #mybtn{
+        color: cadetblue;
+        text-decoration: none;
+        background-color: black;
+        font-family: fantasy;
+        font-size: medium;
+        display: block;
+        padding: 8px 8px;
+        border: 1px solid slateblue;
+    }
+    #mybtn:hover{
+        background-color: beige;
+        text-decoration: underline;
+    }
 }
 
 .ebtn{
