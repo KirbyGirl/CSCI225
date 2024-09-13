@@ -1,11 +1,18 @@
 .schedule{
-    table, th, td{
+    tr, td{
         background-color: aqua;
         border: solid black 1px;
+        border-collapse: collapse;
         text-align: center;
         width: auto;
 
     }
+
+    table{
+        width: 100%;
+    }
+
+    
 
 
 }
