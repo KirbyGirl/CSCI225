@@ -78,6 +78,26 @@
     }
 }
 
+#wrk{
+    background-color: rgba(255, 0, 255, 0.326);
+    border-style: outset;
+    border-color: aquamarine;
+}
+
+#clf{
+    background-color: rgba(47, 79, 79, 0.409);
+    border-style: groove;
+    border-color: blueviolet;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+
+}
+
+#fill{
+    background-color: rgba(137, 43, 226, 0.317);
+    border-style: ridge;
+    border-color: aliceblue;
+}
+
 .ebtn{
     margin-left: 27%;
 }
