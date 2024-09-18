@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/main.css/main.css">
+        <title>Contact Me</title>
+    </head>
+    <body background="img/dark.jpg">
+        <div class="navbar">
+            <!--Put the list in this section-->
+            <ul>
+                <li><a href="https://www.usca.edu" target="_blank">University of South Carolina - Aiken</a></li>
+                <li><a href="index.html">Back to Homepage</a></li>
+            </ul>
+        </div>
+        <div class="ebtn">
+            <div>
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/WYQQDEabE_A" title="When He Sees Me cover by Cheyenne Kirby" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <form action="submit" name="feedback">
+                    <p>First Name*: <input type="text" placeholder="anonymous" name="fname" required></p>
+                    <p>Last Name*: <input type="text" placeholder="anonymous" name="lname" required></p>
+                    <p>Email: <input type="email" placeholder="name@domain.com" name="mail"></p>
+                    <p>Would you reccomend this site? 
+                        <br><input type="radio" name="yn" value="yes">Yes
+                    <br><input type="radio" name="yn" value="no">No</p>
+                    <p>
+                        What is your favorite website?
+                        <select name="favsite">
+                            <option value="Google">Google</option>
+                            <option value="Youtube">Youtube</option>
+                            <option value="Twitter">Twitter</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="Tiktok">TikTok</option>
+                        </select>
+                    </p>
+                    <p> Please rate this website from 1-10: 
+                        <input type="range" name="rating" min="1" max="10">
+                    </p>
+
+                    <p>
+                        Additional Comments
+                        <textarea name="Comment"></textarea>
+                    </p>
+                    <p>
+                        <input type="color" name="color">
+                        <br><input type="date" name="date">
+                        <br><input type="submit" name="Submit">
+                    </p>
+                </form>
+
+            </div>
+        </div>
+    </body>
+</html>
