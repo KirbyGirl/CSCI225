@@ -186,12 +186,15 @@ body{
     color: azure;
 
     p::first-letter{
-        font-family: 'Macondo Swash Caps';
+        font-family: 'Cinzel Decorative';
         font-size: 30px;
     }
 
     h1::first-letter{
-        font-family: 'Macondo Swash Caps';
+        font-family: 'Cinzel Decorative';
         font-size: 45px;
+    }
+    h1{
+        text-shadow: 0 0 10px lightgreen;
     }
 }
