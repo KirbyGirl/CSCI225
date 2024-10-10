@@ -1,0 +1,191 @@
+body{
+    background-image: url(../img/dark.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+.navbar{
+    
+
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 25%;
+        height: 100%;
+        background-color: none;
+    }
+
+    #usc{
+        top: 2%;
+        position: fixed;
+        right: 5em;
+        animation: 10s ease-in-out 1s alternate infinite floating;
+
+    }
+    #asng{
+        top: 14%;
+        position: fixed;
+        left: 1em;
+        animation: 10s ease-in-out 1s alternate infinite floating2;
+
+    }
+    #add{
+        top: 26%;
+        position: fixed;
+        right: 1em;
+        animation: 11s ease-in-out 1s alternate infinite floating2;
+
+    }
+    #vid{
+        top: 38%;
+        position: fixed;
+        animation: 11s ease-in-out 1s alternate infinite floating;
+
+    }
+    #stress{
+        top: 50%;
+        position: fixed;
+        right: 77px;
+        animation: 9s ease-in-out 1s alternate infinite floating3;
+
+
+    }
+    #art{
+        top: 62%;
+        position: fixed;
+        left: 2em;
+        animation: 10s ease-in-out 1s alternate infinite floating3;
+
+    }
+    #con{
+        top: 74%;
+        position: fixed;
+        right: 2em;
+        animation: 12s ease-in-out 1s alternate infinite floating4;
+
+
+
+    }
+    #tp{
+        top: 86%;
+        position: fixed;
+        animation: 10s ease-in-out 1s alternate infinite floating4;
+
+    }
+
+    a{
+        color: cadetblue;
+        text-decoration: none;
+        background-color: black;
+        font-family: 'Macondo Swash Caps';
+        font-size: 12px;
+        display: block;
+        padding: 20px;
+        border: 1px solid slateblue;
+        border-radius: 3em;
+    }
+    a:hover{
+        text-decoration: underline;
+        background-color: beige;
+
+    }
+    #mybtn{
+        color: cadetblue;
+        text-decoration: none;
+        background-color: black;
+        font-size: medium;
+        display: block;
+        padding: 8px 8px;
+        border: 1px solid slateblue;
+    }
+    #mybtn:hover{
+        background-color: beige;
+        text-decoration: underline;
+    }
+}
+
+@keyframes floating {
+    from{transform: translate(6px, 5px);}
+    20% {transform: translate(-6px, -7px);}
+    40% {transform: translate(6px, -2px);}
+    60% {transform: translate(-6px, 4px);}
+    80% {transform: translate(6px, 3px);}
+    
+}
+@keyframes floating2 {
+    from{transform: translate(7px, 3px);}
+    20% {transform: translate(-7px, 9px);}
+    40% {transform: translate(7px, -2px);}
+    60% {transform: translate(-7px, -6px);}
+    80% {transform: translate(7px, 8px);}
+    
+}
+@keyframes floating3 {
+    from{transform: translate(7px, -3px);}
+    20% {transform: translate(-4px, 10px);}
+    40% {transform: translate(14px, 8px);}
+    60% {transform: translate(-8px, -15px);}
+    80% {transform: translate(8px, 2px);}
+    
+}
+@keyframes floating4 {
+    from{transform: translate(-10px, 9px);}
+    20% {transform: translate(10px, 2px);}
+    40% {transform: translate(-10px, -8px);}
+    60% {transform: translate(10px, -7px);}
+    80% {transform: translate(-10px, -9px);}
+    
+}
+
+
+.ebtn{
+    .schedule{
+        tr, td{
+            background-color: aqua;
+            border: solid black 1px;
+            border-collapse: collapse;
+            text-align: center;
+            width: auto;
+            color: black;
+    
+        }
+    
+        table{
+            width: 100%;
+        }
+        #wrk{
+            background-color: rgba(255, 0, 255, 0.326);
+            border-style: outset;
+            border-color: aquamarine;
+        }
+        
+        #clf{
+            background-color: rgba(47, 79, 79, 0.409);
+            border-style: groove;
+            border-color: blueviolet;
+            text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+        
+        }
+        
+        #fill{
+            background-color: rgba(137, 43, 226, 0.317);
+            border-style: ridge;
+            border-color: aliceblue;
+        }
+        
+    }    
+    margin-left: 150px;
+    margin-right: 150px;
+    img{
+        height: 50%;
+        width: 50%;
+    }
+    text-shadow: 0px 0px 3px lightseagreen;
+    color: azure;
+
+    p::first-letter, h1::first-letter{
+        font-family: 'Macondo Swash Caps';
+    }
+}
