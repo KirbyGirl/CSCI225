@@ -79,7 +79,7 @@ body{
         color: cadetblue;
         text-decoration: none;
         background-color: black;
-        font-family: fantasy;
+        font-family: 'Macondo Swash Caps';
         font-size: 12px;
         display: block;
         padding: 20px;
@@ -95,7 +95,6 @@ body{
         color: cadetblue;
         text-decoration: none;
         background-color: black;
-        font-family: fantasy;
         font-size: medium;
         display: block;
         padding: 8px 8px;

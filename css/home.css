@@ -185,7 +185,13 @@ body{
     text-shadow: 0px 0px 3px lightseagreen;
     color: azure;
 
-    p::first-letter, h1::first-letter{
+    p::first-letter{
         font-family: 'Macondo Swash Caps';
+        font-size: 30px;
+    }
+
+    h1::first-letter{
+        font-family: 'Macondo Swash Caps';
+        font-size: 45px;
     }
 }
