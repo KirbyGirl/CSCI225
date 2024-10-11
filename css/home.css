@@ -179,6 +179,7 @@ body{
     }    
     margin-left: 150px;
     margin-right: 150px;
+    margin-bottom: 5%;
     img{
         height: 50%;
         width: 50%;
@@ -198,4 +199,18 @@ body{
     h1{
         text-shadow: 0 0 10px lightgreen;
     }
+}
+
+footer{
+    left: 0;
+    position: fixed;
+    background-image: url(../img/fractal.avif);
+    top: 95%;
+    height: 5%;
+    width: 100%;
+    color: white;
+    text-shadow: 0 0 7px rgb(0, 251, 255);
+    text-align: center;
+    padding-top: 2px;
+    border: solid black 2px;
 }
