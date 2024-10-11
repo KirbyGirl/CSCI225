@@ -213,4 +213,5 @@ footer{
     text-align: center;
     padding-top: 2px;
     border: solid black 2px;
+    z-index: -1;
 }
