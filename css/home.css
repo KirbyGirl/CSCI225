@@ -219,6 +219,10 @@ body{
     border-radius: 3em;
     text-align: center;
 }
+a:hover{
+    background-image: none;
+    border: none;
+}
 }
 
 footer{
