@@ -167,7 +167,7 @@ body{
             background-color: rgba(47, 79, 79, 0.409);
             border-style: groove;
             border-color: blueviolet;
-            text-shadow: 5px -20px 3px #FF0000, 0 0 5px #0000FF;
+            text-shadow: 0px 0px 3px #FF0000, 0 0 5px #0000FF;
         
         }
         
