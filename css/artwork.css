@@ -78,13 +78,14 @@ body{
     a{
         color: cadetblue;
         text-decoration: none;
-        background-color: black;
+        background-image: radial-gradient(rgba(0, 0, 0, 0.39), rgba(3, 3, 88, 0.386), rgba(143, 143, 254, 0.45));
         font-family: 'Macondo Swash Caps';
-        font-size: 12px;
+        font-size: 15px;
         display: block;
         padding: 20px;
         border: 1px solid slateblue;
         border-radius: 3em;
+        z-index: 1;
     }
     a:hover{
         text-decoration: underline;
