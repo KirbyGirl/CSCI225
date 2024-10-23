@@ -24,6 +24,7 @@ body{
 }
 .sched{
     text-align: center;
+    left: 250px;
     td{
         border: 1px ridge whitesmoke;
 
@@ -32,11 +33,20 @@ body{
         background-image: url(../img/broken.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        text-shadow: 0 0 2px red, 0 0 5px black;
     }
     #fill{
-
+        background-image: url(../img/colorfulsmoke.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-shadow: 0 0 3px black, 0 0 2px blue;
     }
     #wrk{
+        background-image: url(../img/fractal.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-shadow: 0 0 2px red, 0 0 5px black;
+
 
     }
 }
