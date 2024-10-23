@@ -1,110 +1,109 @@
 body{
-    background-image: url(../img/dark.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../img/dark.gif);
     background-attachment: fixed;
-    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.intro, .assect, .port, .add, .sched{
+    border: 1px outset white;
+    border-radius: 10px;
+    padding: 10px;
+    visibility: hidden;
 }
 
+.intro h1, .assect h1, .port h1, .add h1, .sched h1{
+    visibility: visible;
+    color: antiquewhite;
+    text-shadow: 0 0 3px black, 0 0 3px blue, 0 0 4px violet;
+    border-image: url(/img/border.png) 100% round;
+}
+.intro{
+    top: 30%;
+    left: 10%;
+    position: fixed;
+}
+.assect{
+    top: 30%;
+    right: 10%;
+    position: fixed;
+
+}
+.port{
+    top: 60%;
+    left: 20%;
+    position: fixed;
+
+}
+.add{
+    top: 60%;
+    right: 20%;
+    position: fixed;
+
+}
+.sched{
+    top: 80%;
+    left: 40%;
+    position: fixed;
+
+}
 .navbar{
-    
-
-    ul{
+    width: max-content;
+    li{
         list-style-type: none;
-        padding: 0;
-        margin: 0;
-        width: 25%;
-        height: 100%;
-        background-color: none;
-    }
-
-    #usc{
-        top: 2%;
-        position: fixed;
-        right: 5em;
-        animation: 10s ease-in-out 1s alternate infinite floating;
+        display: inline-block;
+        background-image: radial-gradient(rgba(0, 0, 0, 0.16), rgba(2, 2, 68, 0.237), rgba(159, 159, 251, 0.372));
+        padding: 20px;
+        border-radius: 200px;
 
     }
-    #asng{
-        top: 14%;
+    a{
+        text-decoration: none;
+        font-size: 20px;
+        color: aqua;
+        text-shadow: 0 0 3px black, 0 0 4px rgb(4, 43, 100);
+    }
+    .usc{
+        left: 5%;
         position: fixed;
-        left: 1em;
-        animation: 10s ease-in-out 1s alternate infinite floating2;
+        animation: 10s ease-in-out 0s alternate infinite floating;
 
     }
-    #add{
-        top: 26%;
+    .asng{
+        left: 20%;
         position: fixed;
-        right: 1em;
-        animation: 11s ease-in-out 1s alternate infinite floating2;
+        animation: 10s ease-in-out 0s alternate infinite floating3;
 
     }
-    #vid{
-        top: 38%;
+    .vid{
+        right: 40%;
         position: fixed;
-        animation: 11s ease-in-out 1s alternate infinite floating;
-
+        animation: 11s ease-in-out 0s alternate infinite floating2;
     }
-    #stress{
-        top: 50%;
-        position: fixed;
-        right: 77px;
-        animation: 9s ease-in-out 1s alternate infinite floating3;
-
-
+    .art{
+        right: 20%;
+        position: fixed;    
+        animation: 12s  ease-in-out 0s alternate infinite floating;    
     }
-    #art{
-        top: 62%;
-        position: fixed;
-        left: 2em;
-        animation: 10s ease-in-out 1s alternate infinite floating3;
-
-    }
-    #con{
-        top: 74%;
-        position: fixed;
-        right: 2em;
-        animation: 12s ease-in-out 1s alternate infinite floating4;
-
-
-
-    }
-    #tp{
-        top: 86%;
-        position: fixed;
+    .tp{
+        right: 5%;
+        position:fixed;
         animation: 10s ease-in-out 1s alternate infinite floating4;
 
     }
 
-    a{
-        color: cadetblue;
-        text-decoration: none;
-        background-image: radial-gradient(rgba(0, 0, 0, 0.39), rgba(3, 3, 88, 0.386), rgba(143, 143, 254, 0.45));
-        font-family: 'Macondo Swash Caps';
-        font-size: 15px;
-        display: block;
-        padding: 20px;
-        border: 1px solid slateblue;
-        border-radius: 3em;
-        z-index: 1;
-    }
-    a:hover{
-        color: midnightblue;
-        text-decoration: underline;
-        background-color: beige;
-
-    }
-    #mybtn{
-        color: cadetblue;
-        text-decoration: none;
-        background-color: black;
-        font-size: medium;
-        display: block;
-        padding: 8px 8px;
-        border: 1px solid slateblue;
-    }
-    #mybtn:hover{
-        background-color: beige;
-        text-decoration: underline;
+}
+footer{
+    bottom: 0;
+    width: 100vw;
+    height: 30px;
+    left: 0;
+    position: fixed;
+    background-image: linear-gradient(skyblue, blue, midnightblue);
+    p{
+        position: fixed;
+        left: 45%;
+        top: 93%;
+        
     }
 }
 
@@ -139,102 +138,4 @@ body{
     60% {transform: translate(10px, -7px);}
     80% {transform: translate(-10px, -9px);}
     
-}
-
-
-.wrapper{
-    .schedule{
-        tr, td{
-            background-color: aqua;
-            border: solid black 1px;
-            border-collapse: collapse;
-            text-align: center;
-            width: auto;
-            color: black;
-    
-        }
-    
-        table{
-            width: 100%;
-        }
-        #wrk{
-            background-color: rgba(255, 0, 255, 0.326);
-            border-style: outset;
-            border-color: aquamarine;
-        }
-        
-        #clf{
-            background-color: rgba(47, 79, 79, 0.409);
-            border-style: groove;
-            border-color: blueviolet;
-            text-shadow: 0px 0px 3px #FF0000, 0 0 5px #0000FF;
-        
-        }
-        
-        #fill{
-            background-color: rgba(137, 43, 226, 0.317);
-            border-style: ridge;
-            border-color: aliceblue;
-        }
-        
-    }    
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 5%;
-    img{
-        height: 50%;
-        width: 50%;
-    }
-    text-shadow: 0px 0px 3px lightseagreen;
-    color: azure;
-
-    p::first-letter{
-        font-family: 'Cinzel Decorative';
-        font-size: 30px;
-    }
-
-    h1::first-letter{
-        font-family: 'Cinzel Decorative';
-        font-size: 45px;
-    }
-    h1{
-        text-shadow: 0 0 10px lightgreen;
-    }
-
-}
-
-.portfolio{
-    a{
-    color: cadetblue;
-    text-decoration: none;
-    background-image: radial-gradient(rgba(0, 0, 0, 0.39), rgba(69, 69, 69, 0.386), rgba(246, 246, 249, 0.45));
-    font-family: 'Macondo Swash Caps';
-    font-size: 20px;
-    display: block;
-    padding: 20px 20px;
-    padding-top: 30px;
-    width: 50px;
-    height: 40px;
-    border: 1px solid rgb(250, 250, 251);
-    border-radius: 3em;
-    text-align: center;
-}
-a:hover{
-    background-image: none;
-    border: none;
-}
-}
-
-footer{
-    left: 0;
-    position: fixed;
-    background-image: url(../img/fractal.avif);
-    top: 95%;
-    height: 5%;
-    width: 100%;
-    color: white;
-    text-shadow: 0 0 7px rgb(0, 251, 255);
-    text-align: center;
-    padding-top: 2px;
-    border: solid black 2px;
 }

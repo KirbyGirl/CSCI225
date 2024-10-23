@@ -4,3 +4,11 @@ body{
     background-attachment: fixed;
     background-size: auto;
 }
+
+
+.container{
+    font-family: 'Macondo Swash Caps';
+    color: aliceblue;
+    text-shadow: 0 0 3px black;
+}
+
