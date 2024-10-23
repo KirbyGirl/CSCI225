@@ -100,6 +100,9 @@ li{
     text-shadow: 0 0 3px rgb(193, 7, 254), 0 0 3px blue, 0 0 4px violet;
     border: 20px solid midnightblue;
     border-image: url(../img/border.png)10%;
+    box-shadow: -7px 7px 6px rgba(0, 0, 0, 0.466);
+    border-radius: 20px;
+
 }
 .assect h1:hover, .add h1:hover{
     font-size: 30px;
@@ -158,7 +161,7 @@ li{
         padding: 20px;
         font-family: 'Macondo Swash Caps';
         border-radius: 200px;
-
+        box-shadow: -7px 7px 6px rgba(0, 0, 0, 0.466);
     }
     a{
         text-decoration: none;

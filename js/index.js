@@ -13,6 +13,7 @@ function myFunction2() {
      x.style.opacity = "1";
      x.style.left="20px";
      x.style.position="absolute";
+     x.style.boxShadow="-7px 7px 3px black";
      x.style.top="20%";
      x.style.borderRadius="10px";
      x.style.color="aliceblue";
@@ -40,6 +41,7 @@ function myFunction() {
      x.style.borderRadius="10px";
      x.style.color="aliceblue";
      x.style.textShadow="0 0 3px midnightblue";
+     x.style.boxShadow="-7px 7px 3px black";
      } else {
       x.style.visibility = "hidden";
      }
@@ -57,6 +59,7 @@ function myFunction3() {
      x.style.overflow="hidden";
      x.style.opacity = "1";
      x.style.position="absolute";
+     x.style.boxShadow="-7px 7px 3px black";
      x.style.top="20%";
      x.style.left="37%";
      x.style.borderRadius="10px";
@@ -80,6 +83,7 @@ function myFunction4() {
      x.style.overflow="hidden";
      x.style.opacity = "1";
      x.style.position="absolute";
+     x.style.boxShadow="-7px 7px 3px black";
      x.style.top="20%";
      x.style.left="37%";
      x.style.borderRadius="10px";
@@ -102,6 +106,7 @@ function myFunction5() {
      x.style.overflow="scroll";
      x.style.overflow="hidden";
      x.style.opacity = "1";
+     x.style.boxShadow="-7px 7px 3px black";
      x.style.position="absolute";
      x.style.top="20%";
      x.style.left="37%";
