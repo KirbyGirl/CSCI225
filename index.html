@@ -115,8 +115,8 @@
             </address>
         </div>
         <div class="sched">
-            <h1>Schedule</h1>
-            <table>
+            <h1 onclick="myFunction2()">Schedule</h1>
+            <table id="click2">
                 <tr>
                     <td></td>
                     <td>Monday</td>
@@ -250,7 +250,30 @@
                 </tr>
             </table>    
         
-        </div>       
+        </div>  
+        <script>
+            function myFunction2() {
+                var x = document.getElementById("click2");
+                if (x.style.visibility === "hidden") {
+                 x.style.visibility="visible";
+                 x.style.display = "inline-block";
+                 x.style.backgroundImage = "radial-gradient(black, midnightblue, rgb(81, 2, 113))";
+                 x.style.border = "2px ridge white";
+                 x.style.width = "570px";
+                 x.style.height = "33vh";
+                 x.style.overflow="scroll";
+                 x.style.opacity = "1";
+                 x.style.position="absolute";
+                 x.style.top="20%";
+                 x.style.left="30%";
+                 x.style.borderRadius="10px";
+                 x.style.color="aliceblue";
+                 x.style.textShadow="0 0 3px midnightblue";
+                 } else {
+                  x.style.visibility = "hidden";
+                 }
+}
+        </script>     
         </div>
         <footer><p>&copy;Cheyenne Kirby 2024</p></footer>
 

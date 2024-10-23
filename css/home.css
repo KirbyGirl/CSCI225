@@ -22,7 +22,25 @@ body{
         display: block;
     }
 }
- .assect:hover, .port:hover, .add:hover, .sched:hover{
+.sched{
+    text-align: center;
+    td{
+        border: 1px ridge whitesmoke;
+
+    }
+    #clf{
+        background-image: url(../img/broken.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #fill{
+
+    }
+    #wrk{
+
+    }
+}
+ .assect:hover, .port:hover, .add:hover{
     visibility: visible;
     opacity: 1;
     background-image: radial-gradient(black, midnightblue, rgb(81, 2, 113));
