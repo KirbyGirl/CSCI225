@@ -14,35 +14,41 @@ body{
 .intro h1, .assect h1, .port h1, .add h1, .sched h1{
     visibility: visible;
     color: antiquewhite;
+    font-family: 'Cinzel Decorative';
+    font-size: 20px;
     text-shadow: 0 0 3px black, 0 0 3px blue, 0 0 4px violet;
-    border-image: url(/img/border.png) 100% round;
+    border: 20px solid midnightblue;
+    border-image: url(../img/border.png)10%;
 }
-.intro{
+.intro h1{
     top: 30%;
     left: 10%;
+    right: 72%;
     position: fixed;
 }
-.assect{
+.assect h1{
     top: 30%;
     right: 10%;
     position: fixed;
 
 }
-.port{
+.port h1{
     top: 60%;
     left: 20%;
+    right: 65%;
     position: fixed;
 
 }
-.add{
+.add h1{
     top: 60%;
     right: 20%;
     position: fixed;
 
 }
-.sched{
+.sched h1{
     top: 80%;
     left: 40%;
+    right: 47%;
     position: fixed;
 
 }
@@ -61,6 +67,15 @@ body{
         font-size: 20px;
         color: aqua;
         text-shadow: 0 0 3px black, 0 0 4px rgb(4, 43, 100);
+    }
+    li:hover{
+        background-color: rgba(240, 255, 255, 0.409);
+        border-radius: 200px;
+        padding: 15px;
+    }
+    a:hover{
+        color: black;
+        text-shadow: 0 0 2px violet;
     }
     .usc{
         left: 5%;
