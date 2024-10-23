@@ -42,6 +42,9 @@ body{
 .sched{
     text-align: center;
     left: 250px;
+    padding: 2px;
+    vertical-align: auto;
+    empty-cells: inherit;
     td{
         border: 1px ridge whitesmoke;
 
@@ -66,6 +69,19 @@ body{
 
 
     }
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+p{
+    font-family: 'Gochi Hand';
+    line-height: normal;
+    text-align: center;
+}
+li{
+    font-weight: 100;
+    color: aliceblue;
 }
 .intro h1, .assect h1, .port h1, .add h1, .sched h1{
     visibility: visible;
@@ -131,6 +147,7 @@ body{
         display: inline-block;
         background-image: radial-gradient(rgba(0, 0, 0, 0.16), rgba(2, 2, 68, 0.237), rgba(159, 159, 251, 0.372));
         padding: 20px;
+        font-family: 'Macondo Swash Caps';
         border-radius: 200px;
 
     }
@@ -144,6 +161,7 @@ body{
         background-color: rgba(240, 255, 255, 0.409);
         border-radius: 200px;
         padding: 15px;
+        font-family: 'Gochi Hand';
     }
     a:hover{
         color: black;
