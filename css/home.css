@@ -4,7 +4,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
-p::first-letter{
+.wrapper p::first-letter{
     font-size: 30px;
     font-family: 'Cinzel Decorative';
 }
@@ -76,6 +76,21 @@ p::first-letter{
     border: 20px solid midnightblue;
     border-image: url(../img/border.png)10%;
 }
+.assect h1:hover, .add h1:hover{
+    font-size: 30px;
+}
+.intro h1:hover{
+    font-size: 30px;
+    right: 65%;
+}
+.port h1:hover{
+    font-size: 30px;
+    right: 61%;
+}
+.sched h1:hover{
+    font-size: 30px;
+    right: 43%;
+}
 .intro h1{
     top: 30%;
     left: 10%;
@@ -92,7 +107,7 @@ p::first-letter{
 .port h1{
     top: 60%;
     left: 20%;
-    right: 65%;
+    right: 66.5%;
     position: fixed;
 
 }
