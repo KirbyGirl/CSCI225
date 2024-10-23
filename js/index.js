@@ -30,6 +30,7 @@ function myFunction() {
      x.style.border = "2px ridge white";
      x.style.width = "570px";
      x.style.height = "33vh";
+     x.style.zIndex="1";
      x.style.overflow="scroll";
      x.style.overflowX="hidden";
      x.style.opacity = "1";
