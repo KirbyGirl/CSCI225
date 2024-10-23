@@ -9,6 +9,7 @@ function myFunction2() {
      x.style.height = "50vh";
      x.style.zIndex="1";
      x.style.overflow="scroll";
+     x.style.overflowX="hidden";
      x.style.opacity = "1";
      x.style.left="20px";
      x.style.position="absolute";
@@ -19,7 +20,7 @@ function myFunction2() {
       x.style.visibility = "hidden";
      }
     }
-    
+
     function myFunction() {
         var x = document.getElementById("click");
         if (x.style.visibility === "hidden") {
@@ -30,6 +31,7 @@ function myFunction2() {
          x.style.width = "570px";
          x.style.height = "33vh";
          x.style.overflow="scroll";
+         x.style.overflowX="hidden";
          x.style.opacity = "1";
          x.style.position="absolute";
          x.style.top="20%";

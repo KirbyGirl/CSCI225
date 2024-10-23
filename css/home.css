@@ -63,10 +63,13 @@ p::first-letter{
     opacity: 1;
     background-image: radial-gradient(black, midnightblue, rgb(81, 2, 113));
     border: 2px ridge white;
-    width: 45%;
+    width: 25%;
     height: 30%;
+    left: 37%;
+    text-align: center;
     display:inline-block;
     overflow:scroll;
+    overflow: hidden;
 }
 .intro h1, .assect h1, .port h1, .add h1, .sched h1{
     visibility: visible;
