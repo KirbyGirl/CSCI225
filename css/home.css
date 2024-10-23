@@ -4,19 +4,40 @@ body{
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
+
 .intro, .assect, .port, .add, .sched{
+    color: aliceblue;
+    text-shadow: 0 0 2px midnightblue;
     border: 1px outset white;
     border-radius: 10px;
-    padding: 10px;
+    position: absolute;
+    top:20%;
+    left: 29%;
+    padding: 2px;
     visibility: hidden;
+    img{
+        width: 20%;
+        height: 20%;
+        margin: auto;
+        display: block;
+    }
 }
-
+ .assect:hover, .port:hover, .add:hover, .sched:hover{
+    visibility: visible;
+    opacity: 1;
+    background-image: radial-gradient(black, midnightblue, rgb(81, 2, 113));
+    border: 2px ridge white;
+    width: 45%;
+    height: 30%;
+    display:inline-block;
+    overflow:scroll;
+}
 .intro h1, .assect h1, .port h1, .add h1, .sched h1{
     visibility: visible;
     color: antiquewhite;
     font-family: 'Cinzel Decorative';
     font-size: 20px;
-    text-shadow: 0 0 3px black, 0 0 3px blue, 0 0 4px violet;
+    text-shadow: 0 0 3px rgb(193, 7, 254), 0 0 3px blue, 0 0 4px violet;
     border: 20px solid midnightblue;
     border-image: url(../img/border.png)10%;
 }
@@ -26,6 +47,7 @@ body{
     right: 72%;
     position: fixed;
 }
+
 .assect h1{
     top: 30%;
     right: 10%;
