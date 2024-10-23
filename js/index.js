@@ -74,7 +74,7 @@ function myFunction4() {
      x.style.backgroundImage = "radial-gradient(black, midnightblue, rgb(81, 2, 113))";
      x.style.border = "2px ridge white";
      x.style.width = "25%";
-     x.style.height = "30%";
+     x.style.height = "35%";
      x.style.overflow="scroll";
      x.style.overflow="hidden";
      x.style.opacity = "1";

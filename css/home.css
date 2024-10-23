@@ -13,6 +13,15 @@ p::first-letter{
     text-indent: 2%;
 }
 
+.port a{
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid white;
+    background-image: radial-gradient(black, blue);
+    border-radius: 10px;
+    padding: 3px;
+}
+
 .intro, .assect, .port, .add, .sched{
     color: aliceblue;
     text-shadow: 0 0 2px midnightblue;
