@@ -84,12 +84,12 @@ li{
     color: aliceblue;
 
 }
-a{
+.assect a{
     text-decoration: none;
     color: aliceblue;
     font-family: 'Gochi Hand';
 }
-a:hover{
+.assect a:hover{
     font-size: 20px;
 }
 .intro h1, .assect h1, .port h1, .add h1, .sched h1{
