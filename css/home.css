@@ -4,7 +4,14 @@ body{
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
+p::first-letter{
+    font-size: 30px;
+    font-family: 'Cinzel Decorative';
+}
 
+.intro p{
+    text-indent: 2%;
+}
 
 .intro, .assect, .port, .add, .sched{
     color: aliceblue;
