@@ -30,6 +30,11 @@ body{
     padding: 2px;
     visibility: hidden;
 
+    img{
+        height: 5%;
+        width: 5%;
+    }
+
     #sig{
         font-family: 'Whisper';
         font-size: 20px;
