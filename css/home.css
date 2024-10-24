@@ -11,6 +11,9 @@ body{
 
 .intro p{
     text-indent: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    
 }
 
 .port a{
@@ -37,7 +40,13 @@ body{
 
     #sig{
         font-family: 'Whisper';
-        font-size: 20px;
+        font-size: 25px;
+    }
+
+    p{
+        margin-left: 2%;
+        margin-right: 2%;
+        text-align: left;
     }
 
 }
@@ -116,6 +125,7 @@ p{
     font-family: 'Gochi Hand';
     line-height: normal;
     text-align: center;
+    letter-spacing: .5px;
 }
 li{
     font-weight: 100;
