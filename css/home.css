@@ -22,6 +22,39 @@ body{
     padding: 3px;
 }
 
+.lnt{
+    color: aliceblue;
+    text-shadow: 0 0 2px midnightblue;
+    border: 1px outset white;
+    border-radius: 10px;
+    padding: 2px;
+    visibility: hidden;
+
+    #sig{
+        font-family: 'Whisper';
+        font-size: 20px;
+    }
+
+}
+
+.lnt h1{
+    visibility: visible;
+    font-family: 'Cinzel Decorative';
+    border: 10px solid midnightblue;
+    border-image: url(../img/border.png)10%;
+    box-shadow: -7px 7px 6px rgba(0, 0, 0, 0.466);
+    border-radius: 50px;
+    position: fixed;
+    left: 13px;
+    bottom: 40px;
+    font-size: 6px;
+    text-align: center;
+}
+
+.lnt h1:hover{
+    font-size: 10px;
+}
+
 .intro, .assect, .port, .add, .sched{
     color: aliceblue;
     text-shadow: 0 0 2px midnightblue;
