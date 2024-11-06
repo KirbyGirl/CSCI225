@@ -39,6 +39,11 @@ body{
         width: 5%;
     }
 
+    #bugs{
+        height: 10%;
+        width: 10%;
+    }
+
     #sig{
         font-family: 'Whisper';
         font-size: 25px;
