@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<link rel="stylesheet" href="css/conversion.css">
+		<link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navbar">
+            <ul>
+                <li id="usc"><a href="https://www.usca.edu" target="_blank">USCA</a></li>
+                <li id="tp"><a href="index.html">Back to Homepage</a></li>
+            </ul>
+        </div>
+        <h1>
+			Unit Conversion Calculator - Length
+		</h1>
+
+		<form>
+			<label for="input1">
+				Input first number here: 
+			</label>
+
+			<input type="text" id="input1">
+
+			<select id="unit1">
+				<option value="Foot">
+					Foot
+				</option>
+
+				<option value="Meter">
+					Meter
+				</option>
+
+				<option value="Inch">
+					Inch
+				</option>
+			</select>
+			=
+			<label for="input2">
+				Input second number here: 
+			</label>
+
+			<input type="text" id="input2">
+
+			<select id="unit2">
+				<option value="Foot">
+					Foot
+				</option>
+
+				<option value="Meter">
+					Meter
+				</option>
+
+				<option value="Inch">
+					Inch
+				</option>
+			</select>
+
+			<button type="button" onClick="unitc()" id="conBut">
+				Convert
+			</button>
+		</form>
+
+		<script>
+			function unitc(){
+				let unit1 = document.getElementById("unit1").value;
+				let input1 = parseFloat(document.getElementById("input1").value);
+
+				let unit2 = document.getElementById("unit2").value;
+
+				if(unit1 == "Foot"){
+					if(unit2 == "Foot"){
+						document.getElementById('input2').value = input1;
+					}else if(unit2 == "Meter"){
+						document.getElementById('input2').value = input1/3.28084;
+					}else{
+						document.getElementById('input2').value = input1*12;
+					}
+				}else if(unit1 == "Meter"){
+					if(unit2 == "Foot"){
+						document.getElementById('input2').value = input1*3.28084;
+					}else if(unit2 == "Meter"){
+						document.getElementById('input2').value = input1;
+					}else{
+						document.getElementById('input2').value = input1*39.37008;
+					}
+				}else{
+					if(unit2 == "Foot"){
+						document.getElementById('input2').value = input1*0.08333333;
+					}else if(unit2 == "Meter"){
+						document.getElementById('input2').value = input1*0.0254;
+					}else{
+						document.getElementById('input2').value = input1;
+					}
+				}
+			}
+		</script>
+    </body>
+</html>
