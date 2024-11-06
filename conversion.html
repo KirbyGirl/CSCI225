@@ -71,27 +71,27 @@
 
 				if(unit1 == "Foot"){
 					if(unit2 == "Foot"){
-						document.getElementById('input2').value = input1;
+						document.getElementById('input2').value = (input1).toFixed(3);
 					}else if(unit2 == "Meter"){
-						document.getElementById('input2').value = input1/3.28084;
+						document.getElementById('input2').value = (input1/3.28084).toFixed(3);
 					}else{
-						document.getElementById('input2').value = input1*12;
+						document.getElementById('input2').value = (input1*12).toFixed(3);
 					}
 				}else if(unit1 == "Meter"){
 					if(unit2 == "Foot"){
-						document.getElementById('input2').value = input1*3.28084;
+						document.getElementById('input2').value = (input1*3.28084).toFixed(3);
 					}else if(unit2 == "Meter"){
-						document.getElementById('input2').value = input1;
+						document.getElementById('input2').value = (input1).toFixed(3);
 					}else{
-						document.getElementById('input2').value = input1*39.37008;
+						document.getElementById('input2').value = (input1*39.37008).toFixed(3);
 					}
 				}else{
 					if(unit2 == "Foot"){
-						document.getElementById('input2').value = input1*0.08333333;
+						document.getElementById('input2').value = (input1*0.08333333).toFixed(3);
 					}else if(unit2 == "Meter"){
-						document.getElementById('input2').value = input1*0.0254;
+						document.getElementById('input2').value = (input1*0.0254).toFixed(3);
 					}else{
-						document.getElementById('input2').value = input1;
+						document.getElementById('input2').value = (input1).toFixed(3);
 					}
 				}
 			}
