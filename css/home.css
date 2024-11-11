@@ -39,6 +39,12 @@ body{
         width: 5%;
     }
 
+    .meme:hover{
+        height: 40%;
+        width: 40%;
+        z-index: 1;
+    }
+
     #bugs{
         height: 10%;
         width: 10%;
