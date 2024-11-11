@@ -39,6 +39,10 @@ body{
         width: 5%;
     }
 
+    #writing{
+        font-family: 'Syne Mono';
+        margin: 2px;
+    }
     .meme:hover{
         height: 40%;
         width: 40%;
